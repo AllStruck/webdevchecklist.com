@@ -4,7 +4,9 @@ $(document).ready(function() {
 		$(this).attr('savedHREF', savedHREF);
 	})
 
+
 	$('input#checkThisSite').keyup(updateLinks);
+	$('input#checkThisSite').trigger('keyup');
 })
 
 function updateLinks(event) {
