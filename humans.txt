@@ -1,4 +1,12 @@
-﻿/* TEAM */
+﻿/* Modified By */
+
+David Monaghan and Jessie Dommert
+AllStruck
+Site: http://allstruck.com/
+Twitter: @allstruck
+Location: Chandler, AZ USA
+
+/* TEAM */
 
 Mads Kristensen
 Site: http://madskristensen.net/
