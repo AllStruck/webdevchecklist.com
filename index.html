@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <h1>Web Developer Checklist</h1>
+        <h1>Web Developer Checklist</h1>URL: 
         <input type="text" id="checkThisSite" />
     </header>
 
@@ -48,7 +48,7 @@
                         link checker</a></li>
 
                         <li><a href=
-                        "http://iwebtool.com/broken_link_checker">iWebTool
+                        "http://iwebtool.com/broken_link_checker" actionURI="http://iwebtool.com/broken_link_checker?url=%s">iWebTool
                         Broken Link Checker</a></li>
                     </ul>
                 </li>
@@ -80,7 +80,7 @@
                     subdomain</label><em class="info">i</em>
 
                     <ul>
-                        <li><a href="http://no-www.org/verify.php">no-www.org
+                        <li><a href="http://no-www.org/verify.php" actionURI="http://no-www.org/verify.php?u=%s">no-www.org
                         score of B</a></li>
 
                         <li><a href=
@@ -101,7 +101,8 @@
                     of 75+</label><em class="info">i</em>
 
                     <ul>
-                        <li><a href="http://validator.w3.org/mobile/">W3C
+                        <li><a href="http://validator.w3.org/mobile/" actionURI="http://validator.w3.org/mobile/check?docAddr=%s"
+>W3C
                         mobile checker</a></li>
                     </ul>
                 </li>
@@ -210,7 +211,7 @@
                         <li><a href="http://achecker.ca/checker/index.php">IDI
                         Web Accessibility Checker</a></li>
 
-                        <li><a href="http://wave.webaim.org/">WAVE
+                        <li><a href="http://wave.webaim.org/" actionURI="http://wave.webaim.org/report?url=%s">WAVE
                         accessibility checker</a></li>
                     </ul>
                 </li>
