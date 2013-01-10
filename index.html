@@ -19,11 +19,13 @@
     <link href="content/site.css" rel="stylesheet">
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
     <script src="scripts/modernizr-2.6.2.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 </head>
 
 <body>
     <header>
         <h1>Web Developer Checklist</h1>
+        <input type="text" id="checkThisSite" />
     </header>
 
     <aside>
@@ -41,7 +43,7 @@
                     links</label><em class="info">i</em>
 
                     <ul>
-                        <li><a href="http://validator.w3.org/checklink">W3C
+                        <li><a href="http://validator.w3.org/checklink" actionURI="http://validator.w3.org/check?uri=%s">W3C
                         link checker</a></li>
 
                         <li><a href=
