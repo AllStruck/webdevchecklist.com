@@ -4,9 +4,14 @@ $(document).ready(function() {
 		$(this).attr('savedHREF', savedHREF);
 	})
 
-
+	// Update links to add urls, where possible, when input box is edited:
 	$('input#checkThisSite').keyup(updateLinks);
 	$('input#checkThisSite').trigger('keyup');
+
+	// Add target="_blank" to all links once page has loaded:
+	$('a').each(function() {
+		$(this).attr('target', '_blank');
+	})
 })
 
 function updateLinks(event) {
